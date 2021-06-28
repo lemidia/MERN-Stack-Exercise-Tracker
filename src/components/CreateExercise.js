@@ -19,7 +19,7 @@ function CreateExercise() {
         setUsers(res.data.map((user) => user.username));
         setExercise({
           ...exercise,
-          username: res.data[0].username,
+          username: "a",
         });
       }
     });
